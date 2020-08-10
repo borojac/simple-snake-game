@@ -1,0 +1,31 @@
+.snake-board {
+    position: absolute;
+    top: 10%; 
+    left: 50%;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+    transform: translateX(-50%);
+}
+
+.boardPart {
+    position: absolute;
+    width: 4%;
+    height: 4%;
+}
+
+#start-game {
+    position: absolute;
+    left: 50%;
+    width: 120px;
+    height: 60;
+    transform: translateX(-50%);
+}
+
+#score {
+    position: absolute;
+    display: inline;
+    left: 2%;
+    top: 25%;
+    font-size: xx-large;
+}
